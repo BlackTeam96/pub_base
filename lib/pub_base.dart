@@ -1,6 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/services.dart';
+export 'src/appbar.dart';
+export 'src/base_screen.dart';
 
 class PubBase {
   static const MethodChannel _channel =

@@ -1,8 +1,8 @@
 name: pub_base
 description: A new flutter plugin project.
-version: 0.0.1
-author:
-homepage:
+version: 0.0.1-dev001
+author: Thuy Dao Duy <daoduythuy@gmail.com>
+homepage: https://github.com/BlackTeam96/pub_base
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

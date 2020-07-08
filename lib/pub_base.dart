@@ -3,6 +3,11 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 export 'src/appbar.dart';
 export 'src/base_screen.dart';
+export 'src/login/phone_input.dart';
+export 'src/repositories/base_repository.dart';
+export 'src/repositories/api_error/client_error.dart';
+export 'src/repositories/response/base_parser.dart';
+export 'package:json_annotation/json_annotation.dart';
 
 class PubBase {
   static const MethodChannel _channel =

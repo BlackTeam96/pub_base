@@ -1,6 +1,6 @@
 name: pub_base
 description: A new flutter plugin project.
-version: 0.0.1-dev001
+version: 0.0.2
 author: Thuy Dao Duy <daoduythuy@gmail.com>
 homepage: https://github.com/BlackTeam96/pub_base
 
@@ -10,6 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_auth: ^0.16.1
+  firebase_core: ^0.4.5
+  json_annotation: ^3.0.0
 
 dev_dependencies:
   flutter_test:

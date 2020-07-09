@@ -6,8 +6,9 @@ class TestRepository extends BaseRepositoryFactory {
       : super(baseUrl, session, parseBase);
 
   Future<ItemModel> fetchMovieList() async {
-    get("/popular?api_key=").then((r) {
-      return ItemModel.fromJson(json.decode(r.body));
+    get("/api/v1/employees").then((r) {
+      final res = ItemModel.fromJson(json.decode(r.body));
+      print(res);
     });
   }
 }

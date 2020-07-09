@@ -15,17 +15,14 @@ class _DashboardState extends BaseState<Dashboard> with BasicPage{
   @override
   void initState() {
     super.initState();
-    final parser = ParserData();
-    final rep = TestRepository("url here", {"":""}, parser);
-    print(rep.getBaseUrl());
+    // final parser = ParserData();
+    // final rep = TestRepository("http://dummy.restapiexample.com", {"":""}, parser);
+    // print(rep.fetchMovieList());
   }
 
   @override
-  String screenName() => "Dashboard";
-
-  @override
   Widget body(BuildContext context) {
-    return Center(child: Text("This is a basic usage of a mixin"));
+    return Center(child: Text("This is a basic usage of a mixin", style: Theme.of(context).textTheme.body1,));
   }
 
   @override
@@ -34,7 +31,12 @@ class _DashboardState extends BaseState<Dashboard> with BasicPage{
   }
 
   @override
-  AppBar customAppbar() {
-    return null;
+  Widget appBar(BuildContext context) {
+    return super.appBar(context);
+  }
+
+  @override
+  Widget progress(BuildContext context) {
+    return super.progress(context);
   }
 }

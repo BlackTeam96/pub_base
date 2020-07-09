@@ -29,7 +29,8 @@ class _DashboardState extends BaseState<Dashboard> with BasicPage{
   }
 
   @override
-  AppBar customAppbar() {
-    return null;
+  Widget appBar(BuildContext context) {
+    return super.appBar(context);
   }
+
 }

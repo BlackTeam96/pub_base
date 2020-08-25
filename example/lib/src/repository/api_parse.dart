@@ -1,10 +1,10 @@
-import 'package:http/src/response.dart';
-import 'package:pub_base/pub_base.dart';
+// import 'package:http/src/response.dart';
+// import 'package:pub_base/pub_base.dart';
 
-class ParserData extends BaseParserFactory {
-  @override
-  Response handleResponse(Response r) {
-    return r;
-  }
+// class ParserData extends BaseParserFactory {
+//   @override
+//   Response handleResponse(Response r) {
+//     return r;
+//   }
 
-}
+// }
